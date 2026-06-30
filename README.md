@@ -1,6 +1,6 @@
-# ViPfreemium Modul
+# ViPfreemium
 
-ViPfreemium adalah modul untuk KernelSU (atau Magisk) yang dirancang untuk Redmi Note 7 (Lavender) dan perangkat Android lainnya yang membutuhkan manajemen jaringan otomatis dan modifikasi sistem tingkat lanjut.
+ViPfreemium adalah modul untuk KernelSU (atau Magisk) yang dirancang untuk perangkat Android lainnya yang membutuhkan manajemen jaringan otomatis dan modifikasi sistem tingkat lanjut.
 
 ## Fitur Utama
 * **Auto Network Reset:** Secara otomatis mereset konfigurasi Wi-Fi, IP Address, dan Bluetooth ke pengaturan bawaan pabrik setiap kali perangkat selesai booting.
@@ -9,10 +9,9 @@ ViPfreemium adalah modul untuk KernelSU (atau Magisk) yang dirancang untuk Redmi
 * **Auto Update:** Mendukung pembaruan otomatis melalui fitur *Update Checker* KernelSU.
 
 ## Cara Instalasi & Deploy File Kustom
-Modul ini mendukung *auto-deployment* file. Jika Anda menambahkan file ke dalam folder `prop` di dalam paket ZIP:
+Modul ini mendukung *auto-deployment* file:
 1. Modul akan otomatis membuat folder tujuan di `/sdcard/ViPfreemium/`.
-2. Semua file dari folder `prop` akan disalin secara otomatis ke direktori tersebut saat instalasi.
-3. Skrip pendukung akan diberikan izin akses (chmod 755) agar siap dieksekusi oleh sistem.
+2. Skrip pendukung akan diberikan izin akses (chmod 755) agar siap dieksekusi oleh sistem.
 
 ## Syarat Penggunaan
 * Perangkat harus sudah di-root menggunakan **KernelSU** atau **Magisk**.
